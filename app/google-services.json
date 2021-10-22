@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "133308773910",
+    "project_id": "geofencing-reminder-fac58",
+    "storage_bucket": "geofencing-reminder-fac58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133308773910:android:3a7cbd132f4c4e49462737",
+        "android_client_info": {
+          "package_name": "com.udacity.project4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133308773910-u94np6gg1oru462i3oot52nn17j06voo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.udacity.project4",
+            "certificate_hash": "238a448c38ed1dbbbfb6cb71f00e25b0e1d2aa1e"
+          }
+        },
+        {
+          "client_id": "133308773910-unolqm6uvrp54ijafuqgsflfjnk79ki7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0XYE79d01pb7RYm0303KMQ7RNOxnsGOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133308773910-unolqm6uvrp54ijafuqgsflfjnk79ki7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

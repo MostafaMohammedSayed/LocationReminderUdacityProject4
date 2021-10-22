@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <!--Data item that holds the reminder details-->
+        <variable
+            name="reminderDataItem"
+            type="com.udacity.project4.locationreminders.reminderslist.ReminderDataItem" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        tools:context=".locationreminders.ReminderDescriptionActivity"
+        android:id="@+id/linearLayout">
+        <!--TODO: add the design of the reminder details-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reminder Details"
+            android:textSize="@dimen/text_size_large" />
+
+        <TextView
+            android:id="@+id/title_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@={reminderDataItem.title}"
+            android:textSize="@dimen/text_size_normal"
+            tools:text="Title"
+            android:layout_margin="16dp"/>
+        <TextView
+            android:id="@+id/description_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@={reminderDataItem.description}"
+            android:textSize="@dimen/text_size_normal"
+            tools:text="Description"
+            android:layout_margin="16dp"/>
+        <TextView
+            android:id="@+id/location_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@={reminderDataItem.location}"
+            android:textSize="@dimen/text_size_normal"
+            tools:text="Location"
+            android:layout_margin="16dp"/>
+
+    </LinearLayout>
+</layout>
